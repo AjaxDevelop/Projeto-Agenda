@@ -1,0 +1,29 @@
+/* Rodapé de navegação entre as TAB's */
+
+.navegacao-win {
+    position: absolute;
+    width: 90%;
+    bottom: 70px;
+}
+
+/* Configuração das TABS */
+
+.tabs {
+    overflow:hidden;
+}
+
+.tabs .tab a{
+    color: #3276b4;
+} /*Black color to the text*/
+
+.tabs .tab a:hover {
+    color:#84abd2;
+} /*Text color on hover*/
+
+.tabs .tab a.active {
+    color:#84abd2;
+} /*Background and text color when a tab is active*/
+
+.tabs .indicator {
+    background-color: #84abd2;
+}

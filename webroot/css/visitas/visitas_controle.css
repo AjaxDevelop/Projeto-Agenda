@@ -1,0 +1,9 @@
+span.badge {
+    float: none;
+}
+
+.hoje {
+    min-width: 10px;
+    min-height: 10px;
+    background-color: #357ebd;
+}

@@ -1,0 +1,71 @@
+/*#26a599*/
+/*#3F51B4*/
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+    height: auto;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%;
+}
+
+/* Títulos */
+.page-header{
+    border-bottom: 2px solid #3276b4;
+}
+
+.titulo {
+    font-size: 1.5rem;
+}
+
+/* Configuração do tema */
+.theme, .btn {
+    background-color: #3276b4;
+}
+
+.btn:hover, .waves-effect.waves-brown .waves-ripple {
+    background-color: #84abd2;
+}
+
+.btn-cancelar {
+    background-color: #ec1b24;
+}
+
+.btn-cancelar:hover {
+    background-color: #ef4950;
+}
+
+.input-field .prefix.active, .input-field input[type=text]:focus + label, ul.dropdown-content.select-dropdown li span{
+    color: #3276b4;
+}
+
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #3276b4;
+    box-shadow: 0 1px 0 0 #84abd2;
+}
+
+/* Trash Class */
+
+.trash {
+    font-size: 2.0rem;
+    color: #ec1b24;
+    cursor: pointer;
+}
+
+/* Erros de validação */
+
+.error {
+    margin-left: 25%;
+    top: -5px;
+    float: none;
+    color: #ec1b24;
+}
